@@ -75,7 +75,7 @@ func main() {
 
 const groovyBoiler = `println "Hello, World!"`;
 const haskellBoiler = `main = putStrLn "Hello, World!"`;
-const javaBoiler = `public class HelloWorld {
+const javaBoiler = `public class Main {
 	public static void main(String[] args) {
 			System.out.println("Hello, World!");
 	}
