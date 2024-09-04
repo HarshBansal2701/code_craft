@@ -23,6 +23,8 @@ function App() {
 
 	useEffect(() => {
 		setCode(boilerCodes(language.id));
+		setStatus(null);
+		setOutput("");
 	}, [language]);
 
 	return (
